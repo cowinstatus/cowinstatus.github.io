@@ -23,16 +23,55 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+a {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* footer {
+  position: fixed;
+  bottom: 10px;
+  flex-direction: column;
+  align-items: center;
+} */
+.body {
+  position: relative;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+}
+.pincode-label{
+  padding: 2px;
+  margin-right: 10px;
+}
+.pincode-text {
+  padding: 10px;
+}
+.btn-availability {
+  padding: 10px;
+  margin-left: 10px;
+  background: azure;
+  border-radius: 5px;
+}
+tr:nth-child(even) {background: #735d5d;}
+tr:nth-child(odd) {    background: #282d33;}
+.availability-msg {
+  margin:10px 0;
+}
+tr {
+  line-height: 30px;
+}
+sub {
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 20px;
+  font-size: small;
+  font-style: italic;
+}
+td {
+  padding: 5px;
+}
+footer a {
+  margin-right: 10px;
 }
